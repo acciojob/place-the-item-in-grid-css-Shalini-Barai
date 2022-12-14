@@ -1,4 +1,4 @@
-.grid-container {
+.holder {
   display: grid;
   grid-template-columns: auto auto;
   background-color: grey;
