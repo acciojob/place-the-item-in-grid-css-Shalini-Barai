@@ -1,11 +1,8 @@
 .holder {
   display: grid;
-  grid-template-columns: auto auto;
-  background-color: grey;
-  padding: 10px;
-}
-.grid-item {
-  background-color: grey;
-  border: 1px solid black;
+  grid-template-columns:repeat(2,2fr);
+  grid-template-rows: repeat(2,200px);
+
+  width:200px;
   height:200px;
 }
